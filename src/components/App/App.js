@@ -27,7 +27,6 @@ export const App = () => {
   const [item, setItem] = useState(null);
   const [date, setDate] = useState("");
   const [error, setError] = useState(false);
-  const [apiError, setApiError] = useState(false);
 
   const fetchImage = async (date) => {
     setError(false);
